@@ -4,8 +4,6 @@ OsloMet brukernavn: s339862
 
 GitHub brukernavn: vetlelg
 
-Github repo URL: https://github.com/data1700-v23/oblig-3-vetlelg
-
 Fullt navn: Vetle Larsen Gundersen
 
 Kort beskrivelse av applikasjon (5-10 setninger):
