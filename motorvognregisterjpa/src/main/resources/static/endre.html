@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Endre</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="jquery-3.6.4.min.js"></script>
+</head>
+<body class="container-l">
+<form class="form col-3" id="form">
+    <h1>Endre</h1>
+
+    <div class="form-group">
+        <label for="personnummer">Personnummer</label>
+        <input class="form-control" id="personnummer" type="text">
+        <span id="feilPersonnummer" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label for="navn">Navn</label>
+        <input class="form-control" id="navn" type="text">
+        <span id="feilNavn" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label for="adresse">Adresse</label>
+        <input class="form-control" id="adresse" type="text">
+        <span id="feilAdresse" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label for="registreringsnummer">Registreringsnummer</label>
+        <input class="form-control" id="registreringsnummer" type="text">
+        <span id="feilRegistreringsnummer" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label for="merke">Merke</label>
+        <select class="form-control" id="merke">
+        </select>
+        <span id="feilMerke" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label for="type">Type</label>
+        <select class="form-control" id="type">
+        </select>
+        <span id="feilType" class="text-danger"></span>
+    </div>
+
+    <input id="endre" type="button" value="Endre">
+</form>
+
+</body>
+<script src="endre.js" type="application/javascript"></script>
+<script src="validering.js" type="application/javascript"></script>
+</html>
